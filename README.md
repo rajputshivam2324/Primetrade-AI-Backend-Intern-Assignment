@@ -1,4 +1,4 @@
-# 🚀 TaskFlow — Scalable REST API with Authentication & Role-Based Access
+# TaskFlow — Scalable REST API with Authentication & Role-Based Access
 
 A full-stack task management application featuring a secure Express.js REST API with JWT authentication, role-based access control (RBAC), CRUD operations, Swagger documentation, and a modern React frontend.
 
@@ -9,7 +9,7 @@ A full-stack task management application featuring a secure Express.js REST API 
 
 ---
 
-## 📋 Features
+## Features
 
 ### Backend
 - **User Authentication** — Register & login with bcrypt password hashing + JWT tokens
@@ -51,7 +51,7 @@ A full-stack task management application featuring a secure Express.js REST API 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── server/                     # Backend API
@@ -104,7 +104,7 @@ A full-stack task management application featuring a secure Express.js REST API 
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -169,7 +169,7 @@ npm run dev              # Starts on http://localhost:5173
 
 ---
 
-## 🗃 Database Schema
+## Database Schema
 
 ### User
 | Field     | Type   | Constraints              |
@@ -192,7 +192,7 @@ npm run dev              # Starts on http://localhost:5173
 
 ---
 
-## 🔒 Security Practices
+## Security Practices
 - **Password Hashing** — bcrypt with 12 salt rounds
 - **JWT Authentication** — Tokens stored in client, sent via `Authorization: Bearer` header
 - **Input Validation** — express-validator on all POST/PUT routes
@@ -203,7 +203,7 @@ npm run dev              # Starts on http://localhost:5173
 
 ---
 
-## 📖 Environment Variables
+## Environment Variables
 
 ```env
 PORT=5000
@@ -215,6 +215,4 @@ NODE_ENV=development
 
 ---
 
-## 📝 License
 
-MIT
