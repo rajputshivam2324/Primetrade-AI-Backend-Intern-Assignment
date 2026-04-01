@@ -1,4 +1,4 @@
-# TaskFlow — Scalable REST API with Authentication & Role-Based Access
+# TaskFlow-Scalable REST API with Authentication & Role-Based Access
 
 A full-stack task management application featuring a secure Express.js REST API with JWT authentication, role-based access control (RBAC), CRUD operations, Swagger documentation, and a modern React frontend.
 
@@ -12,25 +12,25 @@ A full-stack task management application featuring a secure Express.js REST API 
 ## Features
 
 ### Backend
-- **User Authentication** — Register & login with bcrypt password hashing + JWT tokens
-- **Role-Based Access Control** — `user` and `admin` roles with granular permissions
-- **Task CRUD** — Create, read, update, delete tasks with ownership enforcement
-- **Admin Panel API** — Manage users, update roles, delete accounts
-- **API Versioning** — All routes under `/api/v1`
-- **Input Validation** — express-validator on all endpoints
-- **Error Handling** — Global error handler with consistent JSON responses
-- **Rate Limiting** — Protection against brute force attacks
-- **Security** — Helmet headers, CORS configuration
-- **API Documentation** — Interactive Swagger UI at `/api-docs`
+- **User Authentication** - Register & login with bcrypt password hashing + JWT tokens
+- **Role-Based Access Control**-`user` and `admin` roles with granular permissions
+- **Task CRUD**-Create, read, update, delete tasks with ownership enforcement
+- **Admin Panel API**-Manage users, update roles, delete accounts
+- **API Versioning**-All routes under `/api/v1`
+- **Input Validation**-express-validator on all endpoints
+- **Error Handling**-Global error handler with consistent JSON responses
+- **Rate Limiting**-Protection against brute force attacks
+- **Security**-Helmet headers, CORS configuration
+- **API Documentation**-Interactive Swagger UI at `/api-docs`
 
 ### Frontend
-- **Modern React UI** — Built with Vite, React Router, and context-based state management
-- **Authentication Flow** — Register, login, JWT token management
-- **Protected Routes** — Dashboard accessible only with valid JWT
-- **Task Management** — Create, edit, delete, filter tasks by status/priority
-- **Admin Panel** — User management with role editing (admin only)
-- **Responsive Design** — Works on desktop, tablet, and mobile
-- **Dark Theme** — Premium glassmorphism design with micro-animations
+- **Modern React UI**-Built with Vite, React Router, and context-based state management
+- **Authentication Flow**-Register, login, JWT token management
+- **Protected Routes**-Dashboard accessible only with valid JWT
+- **Task Management**-Create, edit, delete, filter tasks by status/priority
+- **Admin Panel**-User management with role editing (admin only)
+- **Responsive Design**-Works on desktop, tablet, and mobile
+- **Dark Theme**-Premium glassmorphism design with micro-animations
 
 ---
 
@@ -193,13 +193,13 @@ npm run dev              # Starts on http://localhost:5173
 ---
 
 ## Security Practices
-- **Password Hashing** — bcrypt with 12 salt rounds
-- **JWT Authentication** — Tokens stored in client, sent via `Authorization: Bearer` header
-- **Input Validation** — express-validator on all POST/PUT routes
-- **Rate Limiting** — 100 requests per 15 minutes per IP
-- **Helmet** — Sets security-related HTTP headers
-- **CORS** — Configured for frontend origin only
-- **Body Size Limit** — 10kb max payload to prevent abuse
+- **Password Hashing**-bcrypt with 12 salt rounds
+- **JWT Authentication**-Tokens stored in client, sent via `Authorization: Bearer` header
+- **Input Validation**-express-validator on all POST/PUT routes
+- **Rate Limiting**-100 requests per 15 minutes per IP
+- **Helmet**-Sets security-related HTTP headers
+- **CORS**-Configured for frontend origin only
+- **Body Size Limit**-10kb max payload to prevent abuse
 
 ---
 
